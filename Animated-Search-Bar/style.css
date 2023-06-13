@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.search-container{
+    width: 400px;
+    height: 70px;
+    background-color: azure;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
+    transition: all 1.5s;
+    position: relative;
+}
+
+.fa-magnifying-glass{
+    font-size: 30px;
+    transition: all 1s;
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+}
+
+.input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 100%;
+    font-size: 20px;
+    transition: width .5s;
+    transition-delay: 2s;
+}
+
+.fa-microphone{
+    font-size: 20px;
+    transition: width .5s;
+    position: absolute;
+    right: 10px;
+    transition-delay: 2s;
+}
